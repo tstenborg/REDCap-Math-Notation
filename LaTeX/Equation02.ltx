@@ -1,0 +1,19 @@
+
+% This LaTeX renders a target equation as a PDF file cropped to the content.
+% An Arial font is used, for compatibility with associated Web text.
+% Typesetting has been tested via LuaLaTex.
+
+\documentclass{standalone}
+\usepackage{unicode-math}
+
+% Set up equation rendering in the Arial font.
+\defaultfontfeatures{Ligatures=TeX, Scale=MatchLowercase}
+\setmainfont{Arial}
+\setmathfont{GFSNeohellenicMath.otf}
+\setmathfont[range=up]{Arial}
+\setmathfont[range=it]{Arial Italic}
+
+% Target equation (speed).
+\begin{document}
+$v^2 = lg \tan{\theta} \sin{\theta}$
+\end{document}
