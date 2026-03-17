@@ -8,7 +8,7 @@ REDCap [1, 2] is a platform for managing online data collection. LaTeX-style mar
 
 <figure style="height:894px;">
   <img src="Images/survey_screenshot.png" alt="REDCap survey with LaTeX-derived mathematical notation." width="533" height="894">
-  <figcaption>Figure 1. REDCap survey with LaTeX-derived mathematical notation. Equations are SVG images generated via LuaLaTeX and <span style="font-family: monospace;">pdftocairo</span>.</figcaption>
+  <figcaption>Figure 1. REDCap survey with LaTeX-derived mathematical notation. Equations are SVG images generated via LuaLaTeX and pdftocairo.</figcaption>
 </figure>
 
 ---
@@ -64,9 +64,9 @@ Vector graphics (SVG) files of example equations, for Web display, are available
 
 They were generated via a two-step process:
 
-1. LuaLaTeX was used to produce PDF files from LaTeX mathematical markup. The <span style="font-family: monospace;">standalone</span> document class was used to crop PDF bounds to mathematics content. Example LaTeX files are available in the LaTeX folder of this repo.
+1. LuaLaTeX was used to produce PDF files from LaTeX mathematical markup. The *standalone* document class was used to crop PDF bounds to mathematics content. Example LaTeX files are available in the LaTeX folder of this repo.
 
-2. <span style="font-family: monospace;">pdftocairo</span> was used to convert the PDF files to SVG format. Example command line usage of <span style="font-family: monospace;">pdftocairo</span> is given below.
+2. pdftocairo was used to convert the PDF files to SVG format. Example command line usage of pdftocairo is given below.
 
 ```
 pdftocairo -svg Equation01.pdf Equation01.svg
@@ -90,7 +90,12 @@ In testing the instrument in REDCap, the survey design options were set to use t
 
 ### Acknowledgments
 
-This work used REDCap electronic data capture tools [1, 2]. REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing 1) an intuitive interface for validated data capture 2) audit trails for tracking data manipulation and export procedures 3) automated export procedures for seamless data downloads to common statistical packages and 4) procedures for data integration and interoperability with external sources.
+This work used REDCap electronic data capture tools [1, 2]. REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing:
+
+- an intuitive interface for validated data capture,
+- audit trails for tracking data manipulation and export procedures,
+- automated export procedures for seamless data downloads to common statistical packages, and
+- procedures for data integration and interoperability with external sources.
 
 ### References
 
