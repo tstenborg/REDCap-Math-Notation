@@ -8,7 +8,7 @@ REDCap [1, 2] is a platform for managing online data collection. LaTeX-style mar
 
 <figure style="height:893px;">
   <img src="Images/survey_screenshot.png" alt="REDCap survey with LaTeX-derived mathematical notation." width="532" height="893">
-  <figcaption>Figure 1. REDCap survey with LaTeX-derived mathematical notation. Equations are SVG images generated via LuaLaTeX and pdftocairo.</figcaption>
+  <figcaption>Figure 1. REDCap survey with LaTeX-derived mathematical notation.<br/>Equations are SVG images generated via LuaLaTeX and pdftocairo.</figcaption>
 </figure>
 
 ---
