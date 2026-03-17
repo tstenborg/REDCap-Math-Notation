@@ -26,9 +26,11 @@ REDCap [1, 2] is a platform for managing online data collection. LaTeX-style mar
 
 ### Key Files
 
-- LaTeX/Equation[dd].ltx &nbsp;&nbsp; LaTeX equation generation files.
-- Images/Equation[dd].svg &nbsp;&nbsp; Vector graphics rendering of LaTeX equations.
-- PhysicoMathematicalConcepts.zip &nbsp;&nbsp; REDCap instrument.
+| File | Notes |
+| :--- | :--- |
+| LaTeX/Equation[dd].ltx | LaTeX equation generation files. |
+| Images/Equation[dd].svg | Vector graphics rendering of LaTeX equations. |
+| PhysicoMathematicalConcepts.zip | REDCap instrument. |
 
 ### Software Requirements
 
