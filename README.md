@@ -105,4 +105,4 @@ This work used REDCap electronic data capture tools [1, 2]. REDCap (Research Ele
 
 3. K.P. Mwangala, O. Shumba, "Physico-mathematical Conceptual Difficulties among First Year Students Learning Introductory University Physics", Am. J. Educ. Res., 4(17):1238&ndash;1244, 2016.
 
-4. T. Stenborg, "Mathematical notation in REDCap online data collection instruments", TUGboat, 47(1) (submitted), 2026.
+4. T. Stenborg, "Mathematical notation in REDCap online data collection instruments", TUGboat, 47(1), 2026, in press.
