@@ -52,7 +52,7 @@ Conversion of LuaLaTeX-output PDF files to SVG files was via pdftocairo (version
 
 ### 3. PhysicoMathematicalConcepts.zip
 
-Import of the instrument file was tested with REDCap version 16.1.1. Note, the links to image resources are specific to a specific REDCap File Repository. They will need modification for your REDCap project, e.g., via the REDCap Online Designer.
+Import of the instrument file was tested with REDCap version 16.1.1. Note, the links to image resources pertain to a specific REDCap File Repository. They will need modification for your REDCap project, e.g., via the REDCap Online Designer.
 
 Online display of the data collection instrument (a survey) was tested with Microsoft Edge (version 146.0.3856.62).
 
@@ -99,10 +99,10 @@ This work used REDCap electronic data capture tools [1, 2]. REDCap (Research Ele
 
 ## References
 
-1. P.A. Harris, R. Taylor, et al., "Research electronic data capture (REDCap)&mdash;A metadata-driven methodology and workflow process for providing translational research informatics support", J. Biomed. Inform., 42(2):377&ndash;381, 2009.
+1. P.A. Harris, R. Taylor, et al., "[Research electronic data capture (REDCap)&mdash;A metadata-driven methodology and workflow process for providing translational research informatics support](https://doi.org/10.1016/j.jbi.2008.08.010)", J. Biomed. Inform., 42(2):377&ndash;381, 2009.
 
-2. P.A. Harris, R. Taylor, et al., "The REDCap consortium: Building an international community of software platform partners", J. Biomed. Inform., 95:103208, 2019.
+2. P.A. Harris, R. Taylor, et al., "[The REDCap consortium: Building an international community of software platform partners](https://doi.org/10.1016/j.jbi.2019.103208)", J. Biomed. Inform., 95:103208, 2019.
 
-3. K.P. Mwangala, O. Shumba, "Physico-mathematical Conceptual Difficulties among First Year Students Learning Introductory University Physics", Am. J. Educ. Res., 4(17):1238&ndash;1244, 2016.
+3. K.P. Mwangala, O. Shumba, "[Physico-mathematical Conceptual Difficulties among First Year Students Learning Introductory University Physics](https://www.sciepub.com/EDUCATION/abstract/6712)", Am. J. Educ. Res., 4(17):1238&ndash;1244, 2016.
 
 4. T. Stenborg, "Mathematical notation in REDCap online data collection instruments", TUGboat, 47(1), 2026, in press.
