@@ -2,13 +2,13 @@
 
 Rendering LaTeX math notation as images in REDCap online surveys.
 
-REDCap [1, 2] is a platform for managing online data collection. LaTeX-style markup of mathematical notation can be rendered as images for use in REDCap online data collection instruments [4]. This repository provides supporting technical notes and files. Survey questions were drawn from a study of students' perceptions of physico-mathematical concepts [3].
+This repository holds digital assets associated with the article "Mathematical notation in REDCap online data collection instruments" [[1](#references)]. That article discusses LaTeX-style markup of mathematical notation, rendered as images for use in REDCap [[2](#references), [3](#references)] online data collection instruments. Example survey questions were drawn from a study of students' perceptions of physico-mathematical concepts [[4](#references)].
 
 ---
 
 <figure style="height:893px;">
   <img src="Images/survey_screenshot.png" alt="REDCap survey with LaTeX-derived mathematical notation." width="532" height="893">
-  <figcaption>Figure 1. REDCap survey with LaTeX-derived mathematical notation.<br/>Equations are SVG images generated via LuaLaTeX and pdftocairo.</figcaption>
+  <figcaption>Figure 1. REDCap survey with LaTeX-derived mathematical notation.<br/>Equations are SVG images generated via LuaLaTeX and pdftocairo.<br/>Adapted from Stenborg [<a href="#references">1</a>].</figcaption>
 </figure>
 
 ---
@@ -32,11 +32,18 @@ REDCap [1, 2] is a platform for managing online data collection. LaTeX-style mar
 
 ## Software Requirements
 
-- LuaLaTeX.
-- REDCap.
-- pdftocairo.
+| Software | Notes |
+| :--- | :--- |
+| LuaLaTeX | Free in major TeX distributions. Available [here](https://www.latex-project.org). |
+| REDCap<br>&nbsp;<br>&nbsp; | Details [here](https://project-redcap.org/).<br>&nbsp;&nbsp;&nbsp;Free for non-profit, institutional use.<br>&nbsp;&nbsp;&nbsp;Fee-based cloud or other hosted service otherwise. |
+| pdftocairo<br>&nbsp;<br>&nbsp; | Free.<br>&nbsp;&nbsp;&nbsp;Linux, macOS: available in poppler-utils.<br>&nbsp;&nbsp;&nbsp;Windows: available in MiKTeX or poppler-utils. |
 
-LuaLaTeX and pdftocairo are often included in major TeX distributions (e.g., MiKTeX).
+### LuaLaTeX Configuration
+
+Please ensure the LuaLaTeX environment has the following packages installed:
+
+- standalone.
+- unicode-math.
 
 ## Testing
 
@@ -86,11 +93,13 @@ The associated images are the SVG files in this repo. They may also be uploaded 
 
 ### Font Consistency
 
-In testing the instrument in REDCap, the survey design options were set to use the Arial font. Text in field labels was explicitly set use Arial via the Online Designer. LaTeX files were also configured to output Arial content. Particular font choice is a matter for REDCap instrument designers. Consistency across design elements, such as that described here, is however recommended.
+In testing the instrument in REDCap, the survey design options were set to use the Arial font. Text in field labels was explicitly set to use Arial via the Online Designer. LaTeX files were also configured to output Arial content.
+
+Font choice is a matter for REDCap instrument designers. Consistency across design elements, such as that described here, is however recommended.
 
 ## Acknowledgments
 
-This work used REDCap electronic data capture tools [1, 2]. REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing:
+This work used REDCap electronic data capture tools [[2](#references), [3](#references)]. REDCap (Research Electronic Data Capture) is a secure, web-based software platform designed to support data capture for research studies, providing:
 
 - an intuitive interface for validated data capture,
 - audit trails for tracking data manipulation and export procedures,
@@ -99,10 +108,14 @@ This work used REDCap electronic data capture tools [1, 2]. REDCap (Research Ele
 
 ## References
 
-1. P.A. Harris, R. Taylor, et al., "[Research electronic data capture (REDCap)&mdash;A metadata-driven methodology and workflow process for providing translational research informatics support](https://doi.org/10.1016/j.jbi.2008.08.010)", J. Biomed. Inform., 42(2):377&ndash;381, 2009.
+1. Stenborg, T 2026, "Mathematical notation in REDCap online data collection instruments", TUGboat, vol. 47, no. 1, pp. 89&ndash;90, in press.<br>
+[View at publisher](https://doi.org/10.47397/tb/47-1/tb145stenborg-redcap) &nbsp; [SciX](https://scixplorer.org/abs/2026TUGbt..47...89S/abstract)
 
-2. P.A. Harris, R. Taylor, et al., "[The REDCap consortium: Building an international community of software platform partners](https://doi.org/10.1016/j.jbi.2019.103208)", J. Biomed. Inform., 95:103208, 2019.
+2. Harris, PA, Taylor, R, Thielke, R, Payne, J, Gonzalez, N & Conde, JG 2009, "Research electronic data capture (REDCap)&mdash;A metadata-driven methodology and workflow process for providing translational research informatics support", J. Biomed. Inform., vol. 42, no. 2, pp. 377&ndash;381.<br>
+[View PDF](https://www.sciencedirect.com/science/article/pii/S1532046408001226/pdfft?md5=e9591bfb19d67fb3bf82fd90e2e10cff&pid=1-s2.0-S1532046408001226-main.pdf) &nbsp; [View at publisher](https://doi.org/10.1016/j.jbi.2008.08.010) &nbsp; [SciX](https://scixplorer.org/abs/2009JBI....42..377H/abstract)
 
-3. K.P. Mwangala, O. Shumba, "[Physico-mathematical Conceptual Difficulties among First Year Students Learning Introductory University Physics](https://www.sciepub.com/EDUCATION/abstract/6712)", Am. J. Educ. Res., 4(17):1238&ndash;1244, 2016.
+3. Harris, PA, Taylor, R, Minor, BL, Elliott, V, Fernandez, M, O'Neal, L, McLeod, L, Delacqua, G, Delacqua, F, Kirby, J & Duda, SN 2019, "The REDCap consortium: Building an international community of software platform partners", J. Biomed. Inform., vol. 95, article 103208.<br>
+[View PDF](https://www.sciencedirect.com/science/article/pii/S1532046419301261/pdfft?md5=869ae08741efa5eb215d18fd291d9805&pid=1-s2.0-S1532046419301261-main.pdf) &nbsp; [View at publisher](https://doi.org/10.1016/j.jbi.2019.103208) &nbsp; [SciX](https://scixplorer.org/abs/2019JBioI..95j3208H/abstract)
 
-4. T. Stenborg, "Mathematical notation in REDCap online data collection instruments", TUGboat, 47(1), 2026, in press.
+4. Mwangala, KP & Shumba, O 2016, "Physico-mathematical Conceptual Difficulties among First Year Students Learning Introductory University Physics", Am. J. Educ. Res., vol. 4, no. 17, pp. 1238&ndash;1244.<br>
+[View at publisher](https://www.sciepub.com/EDUCATION/abstract/6712) &nbsp; [SciX](https://scixplorer.org/abs/2016AJEdR...4.1238K/abstract)
